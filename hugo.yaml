@@ -46,6 +46,11 @@ params:
   navbar:
     displayTitle: true
     displayLogo: true
+    logo: 
+      path: images/logo.png
+      link: /
+      width: 40
+      height: 40
 
   footer:
     displayCopyright: false
@@ -54,3 +59,11 @@ params:
   editURL:
     enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  theme:
+    default: system
+    displayToggle: true
+
+services:
+  googleAnalytics:
+    ID: G-02LQ7KCK44
